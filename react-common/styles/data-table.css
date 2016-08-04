@@ -1,0 +1,60 @@
+.data-table-header {
+    padding: 0 15px;
+    overflow-x: hidden;
+}
+.data-table-header > .count {
+    float: left;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.data-table-header > .count > strong {
+    color: red;
+    margin: 0 5px;
+}
+.data-table-header > .perpage {
+    float: right;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.data-table-header select {
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    margin: 0 5px;
+    padding: 0 4px;
+}
+.table-data-table th {
+    text-align: center;
+    color: #337ab7;
+}
+.table-data-table td {
+    text-align: center;
+}
+.table-data-table > thead > tr > th.sortable {
+    white-space: nowrap;
+    cursor: pointer;
+    color: #428bca;
+}
+.table-data-table > thead > tr > th.sortable::after {
+    content: '\E150';
+    font-family: 'Glyphicons Halflings';
+    -webkit-font-smoothing: antialiased;
+    vertical-align: text-bottom;
+    font-size: .5em;
+}
+.table-data-table > thead > tr > th.sortable.asc::after {
+    content: '\E093';
+}
+.table-data-table > thead > tr > th.sortable.desc::after {
+    content: '\E094';
+}
+.table-data-table  .ordernumber{
+    width: 150px;
+}
+
+.table-data-table  img{
+    width: 600px;
+    height: 200px;
+}

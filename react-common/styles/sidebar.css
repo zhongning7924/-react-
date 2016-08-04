@@ -1,0 +1,67 @@
+/** 左侧导航 **/
+.nav-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 0 0;
+    margin: 0;
+    background-color: #e5e5e5;
+    /*background-color: #3e3e3e;*/
+}
+.nav-sidebar li {
+    list-style: none;
+}
+.nav-sidebar li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    text-decoration: none;
+    position: relative;
+    /*color: #fff;*/
+}
+/* 选中的item*/
+.nav-sidebar-item.active > a {
+    background-color: #428bca;
+    color: #fff;
+}
+/* 子item被选中的一级item */
+.nav-sidebar > li.group.actived > a {
+    background-color: #B5C0CA;
+}
+/* 一级item */
+.nav-sidebar > li.group > a:after {
+    content: '\e258';
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.nav-sidebar > li.group > ul {
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-height: 400px;
+    transition: max-height 0.3s ease-in;
+}
+/* 展开状态的一级item */
+.nav-sidebar > li.group.collapsed > a:after {
+    content: '\e259';
+}
+.nav-sidebar > li.group.collapsed > ul {
+    max-height: 0;
+    /*height: 0;*/
+    transition: max-height 0.3s cubic-bezier(0,0,0,1);
+}
+/* 二级item多缩进一些 */
+.nav-sidebar > li.group > ul > li > a {
+    padding-left: 50px;
+}

@@ -1,0 +1,23 @@
+.scroll-top-handler {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.scroll-top-handler.hiden {
+    bottom: -30px;
+}
+.scroll-top-handler:before {
+    content: "\e260";
+    font-family: 'Glyphicons Halflings';
+    -webkit-font-smoothing: antialiased;
+}

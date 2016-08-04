@@ -1,0 +1,28 @@
+.pagination-wrapper {
+    text-align: center;
+}
+.pagination-wrapper > div {
+    display: inline-block;
+}
+.pagination-wrapper .pagination {
+    float: left;
+}
+.pagination-info {
+    display: inline-block;
+    margin: 20px 10px;
+    line-height: 34px;
+    color: #666;
+}
+.pagination-info > input {
+    display: inline-block;
+    height: initial;
+    width: 50px;
+    margin: 0 5px;
+    padding: 2px 4px;
+    color: #aaa;
+}
+.pagination-info > button {
+    margin-left: 10px;
+    padding: 3px 6px;
+    vertical-align: baseline;
+}

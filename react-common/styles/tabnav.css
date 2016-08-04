@@ -1,0 +1,35 @@
+.nav-tabs-bar > li > a {
+    padding: 7px 15px;
+    border-radius: 6px 6px 0 0;
+    background-color: #ddd;
+    margin-right: 2px;
+    color: #000;
+    font-size: 12px;
+}
+.nav-tabs-bar > li.active > a {
+    color: #428bca !important;
+}
+.nav-tabs-bar > li > a > i {
+    display: none;
+    cursor: pointer;
+}
+.nav-tabs-bar > li > a:hover > i {
+    display: inline-block;
+}
+.nav-tabs-bar > li > a > i:after {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 2px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.nav-tabs-bar > li > a > i.tab-close:after {
+    content: '\e014';
+    color: #f00;
+    right: 5px;
+}

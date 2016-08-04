@@ -1,0 +1,15 @@
+.modal-wrapper .modal {
+    overflow-y: auto; 
+}
+.modal-wrapper .modal-dialog {
+    margin-top: 60px;
+}
+.modal-wrapper .modal-header {
+    padding: 10px 15px;
+}
+.modal-wrapper .modal-body {
+    padding: 10px 15px;
+}
+.modal-wrapper .modal-footer {
+    padding: 10px 15px;
+}

@@ -1,0 +1,75 @@
+.resource-search > button,
+.resource .operation button {
+    margin-left: 10px;
+}
+
+.resource-search .form-group {
+    margin-right: 20px;
+}
+.resource .table img {
+    max-width: 100px;
+    max-height: 40px;
+    margin: 0px;
+}
+.resource .operation {
+    margin-top: 20px;
+}
+.resource .operation button:first-child {
+    margin-left: 0;
+}
+
+.resource .cart-div .modal-wrapper .modal-dialog {
+    margin-top: 200px;
+}
+
+
+.resource .preview-list {
+    overflow: hidden;
+}
+.resource .preview-list li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+.resource .preview-list li img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.resource .preview-list li p {
+    max-width: 150px;
+    word-break:break-all;
+    text-align: center;
+}
+.resource .preview-list li button {
+    display: block;
+    margin: 10px auto;
+}
+.resource table td {
+    word-wrap: break-word;
+    word-break:break-all;
+}
+/*弹窗样式*/
+.ResourceModal .resource .cart-div .modal-wrapper .modal-dialog {
+    margin-top: 30px;
+}
+.ResourceModal .resource .resource-search input[type='text'] {
+    width: 100px;
+}
+.ResourceModal .resource .resource-search button {
+    margin-left: -15px;
+}
+.resource table .source-frist{
+    width: 50px;
+}
+.resource table .source-second{
+    padding: 1px;
+}
+.resource .table-scroll{
+    height: 400px;
+    overflow-y: auto;
+}
+/*.ResourceModal .resource .resource-search input {
+    width: 160px;
+}*/

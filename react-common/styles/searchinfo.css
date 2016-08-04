@@ -1,0 +1,20 @@
+.app-search .searchinfo {
+	// background: #e5e5e5;
+	padding-top: 15px ;
+	padding-left: 5px;
+	border: solid  1px #337ab7;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+.app-search .searchinfo select{
+	margin-left: 5px;
+}
+.app-search .searchinfo input{
+	margin-left: 30px;
+}
+.app-search .searchinfo input{
+	margin-left: 30px;
+}
+.app-search .searchinfo label{
+	margin-left: 5px;
+}

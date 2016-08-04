@@ -1,0 +1,43 @@
+.login-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #989B9D;
+}
+.login-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 240px;
+    margin-left: -225px;
+    margin-top: -120px;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+.login-wrapper > h3 {
+    margin: 0;
+    background-color: #22405A;
+    color: #fff;
+    padding-left: 15px;
+    border-radius: 8px 8px 0 0;
+    height: 40px;
+    line-height: 40px;
+}
+.login-wrapper > form {
+    padding: 30px 40px 0;
+}
+.login-wrapper label {
+    text-align: right;
+    line-height: 34px;
+}
+.login-wrapper input {
+    margin-left: -15px;
+}
+.login-wrapper button {
+    padding-left: 36px;
+    padding-right: 36px;
+    margin-left: -15px;
+}

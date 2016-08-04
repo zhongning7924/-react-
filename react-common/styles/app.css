@@ -1,0 +1,87 @@
+/** * Base structure * **/
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    font-family: 华文黑体, "Microsoft YaHei", 微软雅黑, "STHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.app-wrapper {
+    min-width: 1180px;
+}
+.sidebar-wrapper {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow: hidden;
+    min-width: 210px; /* 1280 / 6 */
+    border-right: 1px solid #eee;
+}
+.main-wrapper {
+    padding: 20px 10px;
+}
+.content-wrapper {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none; 
+    border-radius: 5px;
+    min-height: 400px;
+}
+.form-necessary::before {
+    content: '*';
+    color: red;
+}
+textarea {
+    resize: none;
+}
+/* 屏蔽 bootstrap form-inline 响应 */
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+/* 公用条件查询样式 */
+.form-inline.common-filter {
+    margin: 0 -15px;
+}
+.form-inline.common-filter .form-group {
+    margin: 10px 15px 10px 10px;
+}
+.form-inline.common-filter .form-group > .control-label {
+    margin: 0 5px;
+}
+.form-inline.common-filter .form-group button {
+    margin: 0 5px;
+}
+/* normal truncate */
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 表格中的 truncate, 自适应 td 宽度 */
+td > .truncate-td {
+    position: relative;
+}
+td > .truncate-td:before {
+    content: attr(title);
+    position: absolute;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+td > .truncate-td:after {
+    content: attr(title);
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+}

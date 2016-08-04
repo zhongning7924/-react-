@@ -1,0 +1,68 @@
+.navbar-fixed-top {
+    border: 0;
+}
+@media (max-width: 767px) {
+    .navbar-header {
+        display: none;
+    }
+}
+.navbar-header {
+    float: left;
+}
+.navbar-brand {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 10px !important;
+}
+.navbar-brand > .navbar-logo {
+    width: 161px;
+    height: 38px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar-brand > span {
+    color: #d4d4d4;
+    font-size: 16px;
+}
+.navbar-right {
+    margin-right: 10px !important;
+    float: right !important;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-nav > li {
+    float: left;
+}
+.navbar-right > li > a {
+    color: #d4d4d4 !important;
+    font-size: 16px;
+    line-height: 38px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.navbar-fixed-top .dropdown-menu {
+    text-align: right;
+    min-width: initial;
+    background-color: #333;
+    border-color: #222;
+}
+.navbar-fixed-top .dropdown-menu a {
+    line-height: 30px;
+    color: #fff;
+}
+.navbar-fixed-top .dropdown-menu a:hover {
+    color: #fff;
+    background-color: #666;
+}
+.navbar-fixed-top .dropdown-menu a > i {
+    margin-left: 10px;
+}
+.changePassword-form {
+    padding: 0 30px;
+}
+.changePassword-form label {
+    text-align: right;
+    line-height: 34px;
+    height: 34px;
+}

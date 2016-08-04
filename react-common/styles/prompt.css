@@ -1,0 +1,53 @@
+.prompt-modal-wrapper .modal-dialog {
+    margin-top: 160px;
+}
+.prompt-modal-wrapper .modal-header {
+    padding: 10px 15px;
+}
+.prompt-modal-wrapper .modal-body {
+    padding: 10px 15px;
+}
+.prompt-modal-wrapper .modal-footer {
+    padding: 10px 15px;
+}
+.prompt-modal-wrapper .alert-msg {
+    margin: 0;
+    position: relative;
+    min-height: 32px;
+    line-height: 32px;
+}
+.prompt-modal-wrapper .alert-msg::before {
+    font-size: 32px;
+    font-family: 'Glyphicons Halflings';
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    float: left;
+    margin-right: 10px;
+    -webkit-font-smoothing: antialiased;
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-info {
+    color: #337ab7;
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-info::before {
+    content: "\e086";
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-success {
+    color: #5cb85c;
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-success::before {
+    content: "\e089";
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-warning {
+    color: #f0ad4e;
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-warning::before {
+    content: "\e085";
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-error {
+    color: #d9534f;
+}
+.prompt-modal-wrapper .alert-msg.alert-msg-error::before {
+    content: "\e088";
+}
